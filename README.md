@@ -1,10 +1,15 @@
-# Browserify + handlebars
+# Browserify + handlebars example
 
 Browserify + hbsfy proof of concept
 
 ## Requirements
-global npm package "grunt-cli"
+
+```
+npm install -g grunt-cli
+```
 
 ## Building
 
-type "grunt"
+```
+grunt
+```
