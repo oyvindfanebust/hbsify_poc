@@ -3,8 +3,8 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         browserify: {
           basic: {
-            src: ['app.js'],
-            dest: 'build.js',
+            src: ['src/app.js'],
+            dest: 'build/build.js',
             options: {
               transform: ['hbsfy'],
               standalone: 'example'
