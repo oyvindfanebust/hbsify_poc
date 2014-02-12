@@ -1,5 +1,7 @@
 var template = require("./template.hbs");
+var gen = require('./messageGenerator');
 
-module.exports = function() {
-	document.body.innerHTML = template({ name: "Øyvind" });
+module.exports = function(target) {
+	var message = gen('Øyvind');
+	target.innerHTML = template({ message: message });
 };
