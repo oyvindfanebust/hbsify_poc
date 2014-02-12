@@ -1,2 +1,5 @@
 var template = require("./template.hbs");
-document.body.innerHTML = template({ name: "Øyvind" });
+
+module.exports = function() {
+	document.body.innerHTML = template({ name: "Øyvind" });
+};
